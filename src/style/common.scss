@@ -1,0 +1,28 @@
+@import "reset";
+@import "fonts";
+@import "color";
+
+body {
+  margin: 0;
+  font-family: "Pretendard", "Noto Sans KR", "Apple SD Gothic Neo",
+  "Malgun Gothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+
+  #root {
+    min-height: 100%;
+    width: 100%;
+
+    *::-webkit-scrollbar {
+      background-color: transparent;
+      width: 5px;
+    }
+
+    main {
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}
