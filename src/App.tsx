@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      데탑 테스트
+      마이훈으로 바꿈
     </div>
   );
 }
