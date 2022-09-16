@@ -66,9 +66,13 @@
     "@storybook/react": "^6.5.12",
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
-    "eslint": "8.22.0",
+    "eslint": "^8.22.0",
     "eslint-plugin-storybook": "^0.6.4",
     "prop-types": "^15.8.1",
     "webpack": "^5.74.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/ChoiBooKi/sent-front.git",
+  "author": "dorongrong <84131419+dorongrong@users.noreply.github.com>",
+  "license": "MIT"
 }
