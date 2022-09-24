@@ -18,10 +18,10 @@ interface InputProps {
   size?: Size;
 }
 
-export const SimpleInput = ({ title, inputValue, size }: InputProps) => (<>
+export const SimpleInput = ({ title, inputValue, size }: InputProps) => (<div id="name">
   <div>{title?.title}</div>
-  <input type="text" id="name" value={inputValue?.inputValue} />
-</>)
+  <input type="text" value={inputValue?.inputValue} />
+</div>)
 
 
 // const SimpleInput = (props: InputProps) => {
