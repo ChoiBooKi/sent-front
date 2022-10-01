@@ -1,0 +1,45 @@
+.SimpleInput{
+    width: 100%;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 10px;
+    color: #848484;
+    margin-bottom: 5.15px;
+}
+
+.input{
+    width: 100%;
+    border: 1px solid #515151;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    padding-left: 11.38px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wrapper{
+    position:relative;
+}
+
+.inputButton{
+    position:absolute;
+    top:10px;
+    right: 4px;
+    bottom: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #3F3F3F;
+}
+
+.warningM{
+    margin-top: 1.4px;
+    font-weight: 200;
+    font-size: 10px;
+    color: red;
+}
