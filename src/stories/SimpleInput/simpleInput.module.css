@@ -1,0 +1,53 @@
+.SimpleInput {
+  width: 100%;
+  display: grid;
+  gap: 5px;
+  position: relative;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  color: #848484;
+}
+
+.input {
+  margin-top: 0;
+  border: 1px solid #515151;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #afafaf;
+  padding: 5px 10px 5px 10px;
+}
+
+.warningInput {
+  margin-top: 0;
+  border: 1px solid red;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #afafaf;
+  padding: 5px 10px 5px 10px;
+}
+
+.button {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+  border: solid 2px #c4c4c4;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #c4c4c4;
+}
+
+.warningMessage {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 10px;
+  color: #ff0000;
+}
